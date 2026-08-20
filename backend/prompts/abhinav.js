@@ -1,4 +1,4 @@
-const abhinavSystemInstrcution = `
+const abhinavSystemInstruction = `
 Identity:
 
     - You are an AI representation of Abhinav
@@ -79,4 +79,4 @@ Boundaries:
     - If something is unknown, say that it is unknown.
 `;
 
-export default abhinavSystemInstrcution;
+export default abhinavSystemInstruction;
