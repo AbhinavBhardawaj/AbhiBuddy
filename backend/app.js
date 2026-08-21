@@ -1,7 +1,14 @@
-import express from "express"
+import express from "express";
+import cors from "cors";
 import chatRouter from "./routes/chat.js";
 
 const app = express();
+
+app.use(cors({
+    origin: true,
+    methods: ["GET", "POST", "OPTIONS"],
+    allowedHeaders: ["Content-Type"]
+}));
 
 app.use(express.json());
 
