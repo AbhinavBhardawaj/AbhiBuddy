@@ -2,7 +2,7 @@ let conversationId = crypto.randomUUID();
 
 export async function sendMessage(message) {
 
-    const response = await fetch("https://psychic-xylophone-4jvpqx5xvx5vf5rqg-3000.app.github.dev/api/chat", {
+    const response = await fetch("https://fluffy-tribble-x5pgrj7jpjrp36xv4-3000.app.github.dev/api/chat", {
         method: "POST",
 
         headers: {
